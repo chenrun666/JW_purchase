@@ -1,0 +1,5 @@
+li = [{'id': 436038, 'payTaskId': None, 'name': 'BOSE/SHIBANI', 'sex': 'F', 'birthday': '1967-02-12', 'nationality': 'DE', 'cardNum': 'C3FLRN4HC', 'cardExpired': '20290220', 'cardIssuePlace': 'DE', 'baggageWeight': 10, 'baggageWeightStr': None, 'passengerType': None}, {'id': 436038, 'payTaskId': None, 'name': 'BOSE/SHIBANI', 'sex': 'F', 'birthday': '1976-02-12', 'nationality': 'DE', 'cardNum': 'C3FLRN4HC', 'cardExpired': '20290220', 'cardIssuePlace': 'DE', 'baggageWeight': 10, 'baggageWeightStr': None, 'passengerType': None}, {'id': 436038, 'payTaskId': None, 'name': 'BOSE/SHIBANI', 'sex': 'F', 'birthday': '2015-02-12', 'nationality': 'DE', 'cardNum': 'C3FLRN4HC', 'cardExpired': '20290220', 'cardIssuePlace': 'DE', 'baggageWeight': 10, 'baggageWeightStr': None, 'passengerType': None}]
+
+li.sort(key=lambda x: int(x["birthday"].split("-")[0]))
+
+print(li)
